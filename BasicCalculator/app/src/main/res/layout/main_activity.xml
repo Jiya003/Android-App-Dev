@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/input1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter first Number"
+        android:inputType="number"
+        android:layout_margin="48dip"
+        android:minHeight="48dp"
+
+        />
+
+    <EditText
+        android:id="@+id/input2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@android:dimen/app_icon_size"
+        android:hint="Enter second Number"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Result" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Add" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Sub" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Multiply" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Divide" />
+
+</LinearLayout>
